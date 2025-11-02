@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayurvedic Wellness</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <header class="navbar">
+    <div class="logo">🌿 Ayurvedic Wellness</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#" class="active" data-section="home">Home</a></li>
+        <li><a href="#" data-section="remedies">Remedies</a></li>
+        <li><a href="#" data-section="tips">Lifestyle</a></li>
+        <li><a href="#" data-section="about">About</a></li>
+        <li><a href="#" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="home" class="section visible">
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Embrace Nature’s Healing Power</h1>
+        <p>Experience holistic wellness through Ayurveda — where nature meets science. Discover herbal remedies for a peaceful, balanced life.</p>
+        <button class="explore-btn" data-target="remedies">🌿 Explore Remedies</button>
+      </div>
+    </div>
+  </section>
+
+  
+<section id="remedies" class="remedies section">
+  <h2>🌸 Ayurvedic Remedies</h2>
+  <div class="remedy-scroll">
+    <div class="remedy-card">
+      <img src="images/ashwagandha.jpg" alt="Ashwagandha">
+      <h3>Ashwagandha</h3>
+      <p>Relieves stress & enhances strength naturally.</p>
+    </div>
+    <div class="remedy-card">
+      <img src="images/brahmi.jpg" alt="Brahmi">
+      <h3>Brahmi</h3>
+      <p>Enhances memory, reduces stress, and promotes mental clarity.</p>
+    </div>
+    <div class="remedy-card">
+     <img src="images/shatavari.jpg" alt="Shatavari">
+      <h3>Shatavari</h3>
+      <p>Supports women’s health, boosts energy, and balances hormones.</p>
+    </div>
+    <div class="remedy-card">
+      <img src="images/neem.jpg" alt="Neem">
+      <h3>Neem</h3>
+      <p>Purifies blood and clears skin naturally.</p>
+    </div>
+    <div class="remedy-card">
+     <img src="images/amla.jpg" alt="Amla">
+      <h3>Amla</h3>
+      <p>Boosts immunity, improves skin glow, and strengthens hair roots.</p>
+    </div>
+    <div class="remedy-card">
+      <img src="images/turmeric.jpg" alt="Turmeric">
+      <h3>Turmeric</h3>
+      <p>Reduces inflammation and strengthens immunity.</p>
+    </div>
+    <div class="remedy-card">
+      <img src="images/tulsi.jpg" alt="Tulsi">
+      <h3>Tulsi</h3>
+      <p>Improves respiratory health and fights infections.</p>
+    </div>
+    <div class="remedy-card">
+     <img src="images/aloevera.jpg" alt="Aloe Vera">
+      <h3>Aloe Vera</h3>
+      <p>Hydrates skin and supports digestion.</p>
+    </div>
+  </div>
+</section>
+
+
+  
+  <section id="tips" class="tips-section section">
+    <h2>🌿 Daily Ayurvedic Living Tips</h2>
+    <div class="tips-container">
+      <div class="tip-card"><h3>☀️ Start Your Day Early</h3><p>Wake up before sunrise to align with nature’s rhythm and boost energy.</p></div>
+      <div class="tip-card"><h3>🍋 Drink Warm Water</h3><p>Begin your morning with warm water to cleanse your digestive system.</p></div>
+      <div class="tip-card"><h3>🥗 Eat Mindfully</h3><p>Eat freshly prepared, warm meals. Focus on your food and avoid overeating.</p></div>
+      <div class="tip-card"><h3>🧴 Practice Self-Massage (Abhyanga)</h3><p>Use warm sesame or coconut oil for a gentle massage before bathing.</p></div>
+      <div class="tip-card"><h3>🌙 Sleep Peacefully</h3><p>Go to bed early and disconnect from screens an hour before sleeping.</p></div>
+    </div>
+  </section>
+
+  
+  <section id="about" class="about-section section">
+    <div class="about-box">
+      <h2>🌿 About Us</h2>
+      <p>
+        At <b>Ayurvedic Wellness</b>, we aim to bring the ancient wisdom of Ayurveda into modern living — 
+        helping you live a balanced, mindful, and healthy life through nature’s healing touch.
+      </p>
+      <p>
+        Our philosophy is simple: true wellness comes from within. We combine traditional remedies, 
+        mindful living practices, and holistic routines to help you achieve harmony of body, mind, and spirit.
+      </p>
+      <p>Join us in rediscovering ancient healing for the modern world 🌸</p>
+    </div>
+  </section>
+
+ 
+  <section id="contact" class="contact section">
+    <h2>📞 Contact Us</h2>
+    <form class="contact-form" onsubmit="handleContact(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  
+  <footer>
+    <p>Ayurvedic Wellness | Designed with 🌿 Balance & Peace</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
